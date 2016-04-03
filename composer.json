@@ -1,0 +1,23 @@
+{
+    "name": "droid/droid-composer",
+    "description": "Droid plugin for composer",
+    "homepage": "http://www.github.com/droid-php/droid-composer",
+    "keywords": ["php", "droid", "composer", "linkorb"],
+    "type": "library",
+    "authors": [
+        {
+            "name": "LinkORB Engineering",
+            "email": "engineering@linkorb.com",
+            "role": "Development"
+        }
+    ],
+    "require": {
+        "symfony/console": "~2.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Droid\\Plugin\\Composer": "src/"
+        }
+    },
+    "license": "MIT"
+}
